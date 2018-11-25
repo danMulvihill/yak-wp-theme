@@ -34,7 +34,7 @@ h1, h3{text-align:center;}
     .main-full { width:95%; margin: 0 auto; border-radius: 5px; }
     article{ margin: 0 auto 2%; border-radius:5px; }
     .secondary {border-radius:5px;}
-	nav{width:70%; margin:0 auto;}
+	nav{width:95%; margin:0 auto;}
 	.primary {width:70%; margin:0 2%; float:left;  }
     .primary-full {  }
 	.secondary {width: 25%; float:right;}
