@@ -23,8 +23,17 @@
 		
 	])  ?>
 </nav>
+
+<!-- DISPLAYS TEMPLATE PAGE For trouble-shooting? -->
+<!-- 
 <div id="main" class="main clearfix">
-    <div id="output"><?php if(is_index) echo "index.php"; ?></div>
+	<div id="output">
+	<?php 
+	//  if(is_index) echo "index.php";
+	 ?>
+</div>
+-->
+
 <!-- END WP HEADER -->
 <div class="primary">
 <?php 
