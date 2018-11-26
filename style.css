@@ -15,7 +15,10 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 body {background-color:#223;font-size: 1.4rem; font-family: Gotham, Ariel, sans-serif;}
  
-.secondary li {list-style-type: none}
+a{text-decoration: none}
+
+.secondary li {list-style-type: none;  margin-bottom: 10px;}
+
 
 header h1, header p {color:white; text-align:center}
 header a {color:white; text-decoration:none;}
@@ -27,6 +30,10 @@ article { background-color:#ccd; padding:1% 2%; opacity: 0.9 }
 .secondary {background-color:#ee7; opacity:0.9; font-size: 16px; padding:3px}
 h1, h3{text-align:center;}
 
+.simple-list li{
+   
+}
+
 #output{font-size: 40px; text-align: center;margin-bottom: 10px;}
 
 @media screen and (min-width: 700px) {
@@ -35,9 +42,9 @@ h1, h3{text-align:center;}
     article{ margin: 0 auto 2%; border-radius:5px; }
     .secondary {border-radius:5px;}
 	nav{width:95%; margin:0 auto;}
-	.primary {width:70%; margin:0 2%; float:left;  }
+	.primary {width:70%; margin:0 1%; float:left;  }
     
-	.secondary {width: 25%; float:right;}
+	.secondary {width: 25%; margin:0 1%; float:right;}
 
 }
 
