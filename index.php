@@ -13,11 +13,8 @@ endif;
    
 </div>
     
-<aside id="secondary" class="secondary widget-area">
-    <?php dynamic_sidebar( "main-sidebar"); ?>
-</aside>
-    
 
+<?php get_sidebar(); ?>
     
 </div> <!-- main -->
 

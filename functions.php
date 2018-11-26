@@ -19,8 +19,13 @@ register_nav_menus([
 
 function yak_widgets_init(){
     register_sidebar([
-        'name'      => 'The Sidebar',
-        'id'        => 'main-sidebar'
+        'name'      => esc_html__('The Sidebar', 'yak'),
+        'id'        => 'main-sidebar',
+        'description' => esc_html__('Add widgets for main sidebar here', 'yak'),
+        'before_widget' => '<section class="widget">',
+        'after_widget' => '</section>',
+        'before_title' => '<h3 class="widget-title">',
+        'after_title' => '</h3>'
     ]);
 }
 add_action('widgets_init', 'yak_widgets_init');
