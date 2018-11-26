@@ -24,9 +24,12 @@
 	])  ?>
 </nav>
 
+
+
+<div id="main" class="main">
 <!-- DISPLAYS TEMPLATE PAGE For trouble-shooting? -->
 <!-- 
-<div id="main" class="main clearfix">
+
 	<div id="output">
 	<?php 
 	//  if(is_index) echo "index.php";
@@ -35,6 +38,7 @@
 -->
 
 <!-- END WP HEADER -->
+
 <div class="primary">
 <?php 
 if (have_posts()):
@@ -55,7 +59,7 @@ endif;
 
     
 </div> <!-- main -->
-<div id="clearfix"></div>
+
 <!-- START WP FOOTER -->
 <?php wp_footer(); ?>
 </body>
