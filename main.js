@@ -7,4 +7,4 @@ function doSomething(){
 
 //document.getElementById("push").onclick = doSomething;
 
-document.getElementById("push").addEventListener("click", doSomething);
+//document.getElementById("push").addEventListener("click", doSomething);
