@@ -8,6 +8,7 @@
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
+
 <header>
 	<h1><a href="<?php echo home_url('/') ?>">
 		<?php bloginfo("name"); ?>
@@ -24,7 +25,7 @@
 	])  ?>
 </nav>
 
-
+<!-- end header.php? -->
 
 <div id="main" class="main">
 <!-- DISPLAYS TEMPLATE PAGE For trouble-shooting? -->
