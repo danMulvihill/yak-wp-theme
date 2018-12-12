@@ -39,13 +39,13 @@ h1, h3{text-align:center;}
     .secondary {border-radius:5px;}
 	nav{width:85%; margin:0 auto;}
 	.primary {
-        width:70%;
+        flex-basis:70%;
         /* margin:0 1%;  */
         /* float:left;   */
     }
     
 	.secondary {
-        width: 25%; 
+        flex-basis: 25%; 
         /* margin:0 1%;  */
         /* float:right */
         ;}
